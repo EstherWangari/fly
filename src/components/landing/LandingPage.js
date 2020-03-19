@@ -5,7 +5,6 @@ function LandingPage() {
   return (
     <div>
       landinggg
-      <Link to="/event">go there</Link>
     </div>
   );
 }

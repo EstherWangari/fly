@@ -1,0 +1,11 @@
+.reddish{
+    border:1px solid blue;
+
+}
+.blueish{
+    border:1px dashed red;
+}
+.ui.secondary.menu{
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
