@@ -13,11 +13,11 @@ class LandingPage extends React.Component {
         <div className="landing-container">
           <Header />
           <Row>
-            <Col span={22}>
+            <Col md={22}  xs={24}>
               {/* importing the carousel componenet called Features */}
               <Features />
             </Col>
-            <Col span={2} className="girl-image">
+            <Col md={2} className="girl-image">
               <img src={require('../../assets/girl.png')} />
             </Col>
           </Row>
@@ -25,7 +25,7 @@ class LandingPage extends React.Component {
           <Searching />
           </div>
           <Row className="bottom-landing-container">
-            <Col span={8}>
+            <Col md={8} xs={24}>
               {/* Using props to pass the data from the reusable componenet */}
               <Event
                 image={(require('../../assets/car.jpg'))}
@@ -34,7 +34,7 @@ class LandingPage extends React.Component {
                 date="20"
               />
             </Col>
-            <Col span={8}>
+            <Col md={8} xs={24}>
               <Event
                 image={(require('../../assets/dj.jpg'))}
                 title="Introduction to Ultra Mixer Studio with Felix Mwangi"
@@ -42,7 +42,7 @@ class LandingPage extends React.Component {
                 date="21"
               />
             </Col>
-            <Col span={8}>
+            <Col md={8} xs={24}>
               <Event
                 image={(require('../../assets/poster.jpg'))}
                 title="Grow The Business Interviews Brend Nyango from Do It Now Inc"
@@ -53,7 +53,7 @@ class LandingPage extends React.Component {
           </Row>
           <div className="second-row">
           <Row className="bottom-landing-container">
-          <Col span={8}>
+          <Col  md={8} xs={24}>
               <Event
                 image={(require('../../assets/ux.jpg'))}
                 title="Virtual UX meetup by Motiff (UX Nairobi lead)"
@@ -61,7 +61,7 @@ class LandingPage extends React.Component {
                 date="20"
               />
             </Col>
-            <Col span={8}>
+            <Col  md={8} xs={24}>
               <Event
                 image={(require('../../assets/beer.jpg'))}
                 title="Yoga Evenings With Beer Cheese & Chocolate Flow"
@@ -69,7 +69,7 @@ class LandingPage extends React.Component {
                 date="22"
               />
             </Col>
-            <Col span={8}>
+            <Col  md={8} xs={24}>
               <Event
                 className="last-event-box"
                 image={(require('../../assets/art.jpg'))}

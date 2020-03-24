@@ -7,10 +7,10 @@ class Features extends React.Component {
                 <Carousel autoplay>
                     <div className="slider-cont">
                         <Row>
-                            <Col span={8} className="slider-image">
+                            <Col md={8} xs={24} className="slider-image">
                                 <img src={require('../../assets/fashion.jpg')} />
                             </Col>
-                            <Col span={16} className="slider-text ">
+                            <Col md={16} xs={24} className="slider-text ">
                                 <h4>Featured Events</h4>
                                 <h3>Nairobi Fashion Week 20th Edition</h3>
                                 <p>Join Nairobi Fashion Club on a crash-course through the history of
@@ -36,10 +36,10 @@ class Features extends React.Component {
                     </div>
                     <div className="slider-cont">
                         <Row>
-                            <Col span={8} className="slider-image">
+                            <Col md={8} xs={24} className="slider-image">
                                 <img src={require('../../assets/car.jpg')} />
                             </Col>
-                            <Col span={16} className="slider-text ">
+                            <Col md={16} xs={24} className="slider-text ">
                                 <h4>Featured Events</h4>
                                 <h3>Kijiji Motor Racing Club Mtwapa Circuit</h3>
                                 <p>The Kijiji Motor Racing Club Mtwapa Circuit is open for most motor-racing events held on the Grand Prix or National Circuits and there's always a friendly welcome when you come to the SRC. Take a look at the many benefits of membership by clicking here, or you could pop in next time you visit Silverstone. </p>
@@ -62,10 +62,10 @@ class Features extends React.Component {
                     </div>
                     <div className="slider-cont">
                         <Row>
-                            <Col span={8} className="slider-image">
+                            <Col md={8} xs={24} className="slider-image">
                                 <img src={require('../../assets/poster.jpg')} />
                             </Col>
-                            <Col span={16} className="slider-text ">
+                            <Col md={16} xs={24} className="slider-text ">
                                 <h4>Featured Events</h4>
                                 <h3>Grow The Business Interviews Brend Nyango from Do It Now Inc</h3>
                                 <p>Come and Interact with Brend Nyango as he explains Both interviewing an expert or being interviewed present exceptional opportunities to expand your credibility, authority & respect to grow your business. </p>

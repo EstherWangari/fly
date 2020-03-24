@@ -86,10 +86,9 @@ html {
  
     border: 2px solid#FD2E24;
 }
-.slider-cont .ant-col-16{
+.slider-cont .ant-col-md-16{
     padding-left: 30px;
     width: calc(100% - 400px);
-   
 }
 .landing-container .slider-image {
 width:400px;
@@ -129,12 +128,15 @@ height:400px;
     height: 10px !important;
     border-radius: 50% !important;
     background-color: #000000 !important; 
+    z-index: 100;
+
 }
  .slick-dots{
     position: absolute;
     width: unset !important;
     top:15px;
-    right:30px
+    right:30px;
+    z-index: 100;
     
 }
 .girl-image{
@@ -241,4 +243,82 @@ height:400px;
 
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
+    .landing-container{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .left-nav{
+        text-align: unset;
+        font-size: unset;
+        padding-left: 10px;
+        font-weight: unset;
+    }
+    .girl-image img{
+        display: none;
+    }
+    .landing-container div {
+        z-index: unset;
+    }
+    .landing-container::before{
+        display: none;
+        content: "";
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../assets/curves.png);
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    
+    }
+    .landing-container .slider-image{
+        width: unset;
+        height: unset;
+    }
+    .slider-cont h3{
+        font-size: unset;
+        margin-top: unset;
+    }
+    .slider-cont p{
+        font-size: unset;
+    }
+    .header-container img{
+        width: 150px;
+    }
+    .bottom-landing-container{
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .event-box{
+        margin-top: unset;
+    }
+    .bottom-landing{
+        margin-top: 15px;
+    }
+    .search-box{
+        display: none;
+    }
+    .slider-cont .ant-btn{
+        width: 150px;
+    }
+    .slider-cont span{
+        font-size: unset;
+    }
+    .event-image{
+        margin-top: 10px;
+    }
+    .ant-carousel{height:unset}
+    .second-row{margin-top:unset}
+    .footer-container,.footer-container p{text-align:center;}
+    .ant-carousel .slick-dots-bottom{margin-top:-35px}
+    
+.slider-cont .ant-col-md-16{
+    padding-left: 0;
+    width: 100%;
+}
 }

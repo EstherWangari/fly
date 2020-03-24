@@ -6,10 +6,10 @@ function Footer() {
   return (
     <div id="events" className="footer-container">
     <Row>
-      <Col span={12}>
+      <Col md={12} xs={24}>
       <img src={require('../../assets/logo.png')} />
       </Col>
-      <Col span={12}>
+      <Col md={12} xs={24}>
           <p>© 2020 Fly Events Inc</p>
       </Col>
     </Row>
