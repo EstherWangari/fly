@@ -5,7 +5,119 @@
 .blueish{
     border:1px dashed red;
 }
-.ui.secondary.menu{
-    border-bottom: 1px solid #dddddd;
+.header-container{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #811C5e;
+}
+.header-container img{
+    width: 180px;
+}
+.left-nav{
+    text-align: right;
+    color: #fff;
+    font-weight: 600;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+}
+.ant-carousel{
+    background-color: #fff;
+    height: 430px;
+    border-radius: 6px;
+  
+}
+.landing-container{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#811C5e;
+}
+.slider-cont{
+    padding:15px
+}
+.slider-cont h4{
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    font-weight: 600;
+}
+.slider-cont h3{
+    font-family: 'Roboto', sans-serif;
+    color:#FD2E24;
+    font-size: 28px;
+    margin-top: 30px;
+    
+}
+.slider-cont p{
+    color: #4B4B4B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.slider-cont span{
+    color: #4B4B4B;
+    font-size: 16px;
+
+}
+.slider-cont .ant-btn{
+    background: transparent;
+    width: 200px;
+    height: 38px;
+    border: 2px solid #FD2E24;
+    margin-top: 20px;
+}
+.slider-cont .ant-btn span{
+    color:#FD2E24;
+    font-weight: 600;
+}
+.slider-cont .ant-btn:hover{
+ 
+    border: 2px solid#FD2E24;
+}
+.slider-cont .ant-col-16{
+    padding-left: 30px;
+    width: calc(100% - 400px);
+   
+}
+.landing-container .slider-image {
+width:400px;
+height: 400px;
+}
+.landing-container .slider-image img{
+    width: 100%;
+    height: 100%;
+}
+.orange-box{
+    background-color:#FF6F02;
+    width:50px;
+    height: 50px;
+    border-radius: 6px;
     text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 15px;
+    
+}
+.ant-carousel .slick-dots li.slick-active button{
+    width:10px !important;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF6F02 !important;
+    
+}
+.ant-carousel .slick-dots li button{
+    width:10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #000000 !important; 
+}
+.ant-carousel .slick-dots-bottom{
+    position: absolute;
+    top:15px;
+    left:200px;
+    
+}
+.girl-image img{
+    height: 470px;
 }
