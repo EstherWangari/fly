@@ -7,13 +7,13 @@ function Header() {
   return (
     <div className="header-container">
     <Row>
-      <Col span={18}>
+      <Col md={18} sm={24}>
       <img src={require('../assets/logo.png')} />
       </Col>
       <div className="left-nav">
-      <Col span={2}>EVENTS</Col>
-      <Col span={2}>ABOUT</Col>
-      <Col span={2}>LOGIN</Col>
+      <Col md={2} sm={24}>EVENTS</Col>
+      <Col md={2} sm={24}>ABOUT</Col>
+      <Col md={2} sm={24}>LOGIN</Col>
       </div>
     </Row>
     </div>
