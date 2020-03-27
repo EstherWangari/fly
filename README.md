@@ -14,9 +14,9 @@ Esther Wangari
 
 ### Technologies used
 
-JSX
-CSS and CSS3
-Ant Design
-javascript
-Git
+- JSX
+- CSS and CSS3
+- Ant Design
+- javascript
+- Git
 
