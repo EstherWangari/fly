@@ -8,9 +8,9 @@ Esther Wangari
 
 ### Requirements
 
-A phone or PC
-Internet connectivity
-A browser of your choice.
+- A phone or PC
+- Internet connectivity
+- A browser of your choice.
 
 ### Technologies used
 
