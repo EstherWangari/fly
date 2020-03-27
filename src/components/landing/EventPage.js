@@ -5,6 +5,8 @@ import { Input } from 'antd';
 import moment from 'moment';
 import Footer from "./Footer";
 import SingleEvent from './SingleEvent'
+import { Link } from 'react-router-dom';
+
 
 const { TextArea } = Input;
 
@@ -16,6 +18,7 @@ function EventPage() {
           <Header />
       </div>
       <div className="slider-cont">
+        <Link>
         <SingleEvent
          image={(require('../../assets/fashion.jpg'))}
          heading="Nairobi Fashion Week 20th Edition"
@@ -31,6 +34,7 @@ function EventPage() {
           author="Wangari Gikonyo"
           comment="We supply a series of design principles, practical patterns and high quality designresources (Sketch and Axure)."
         />
+        </Link>
       </div>
       <Footer />
     </div>

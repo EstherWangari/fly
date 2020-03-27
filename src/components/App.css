@@ -117,6 +117,7 @@ height:400px;
     color: #fff;
     font-weight: 600;
     margin-right: 15px;
+    display:inline-block
     
 }
 .ant-carousel .slick-dots li.slick-active button{
@@ -147,6 +148,9 @@ height:400px;
 }
 .girl-image img{
     height:470px;
+}
+.search-box .ant-input:placeholder-shown{
+    margin-top: 0;
 }
 .browse{
     background-color: #fff;
@@ -206,7 +210,7 @@ height:400px;
 .event-content{
     padding-left: 10px;
 }
-.event-box p{
+.event-box p,.event-box p a{
     color: #4B4B4B;
     font-family: 'Roboto', sans-serif;
    
@@ -242,12 +246,12 @@ height:400px;
 .footer-container img{
     width:200px
 }
+
 .about-content{
     width:80%;
     margin: 50px auto;
     margin-top: -100px;
-    
-    padding: 30px 20px 40px 15px;
+    padding: 30px;
     background-color: #fff;
     border-radius: 6px;
 
@@ -290,7 +294,7 @@ height:400px;
     width: 400px;
 }
 .about-container{
-    height: 100vh;
+    background-color:#EDEDED;
 }
 .each-event .slider-cont{
     padding-left: 15%;
@@ -408,6 +412,82 @@ height:400px;
 .comment-section  span{
     margin-right: 30px;
 }
+.ant-modal-title{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+.ant-modal-close-x{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+.new-events{
+    text-align: right;
+}
+.new-events .ant-btn{
+   width: 210px;
+   height: 50px;
+   border-radius: 6px;
+   border: 2px solid #FD2E24;
+}
+.new-events .ant-btn span{
+    color:  #FD2E24;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.new-events .ant-btn:hover{
+    border: 2px solid #FD2E24;
+}
+.new-events .ant-btn:focus{
+    border: 2px solid #FD2E24;
+
+}
+.admin-col{
+    border-bottom:1px solid #d9d9d9;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.about-content .admin-col:last-child{border:none}
+.new-events-image{
+    height: 100px;
+    width:100px;
+}
+.new-events-image img{
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 6px;
+
+}
+.new-events-right{
+    text-align: right;
+}
+.new-events-text h4{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.position-events{
+    display: grid;
+    margin-top:20px;
+    grid-template-columns:115px auto;
+    padding-top: 10px;
+}
+.edit-sec{
+    display: block;
+
+}
+.edit-sec p{
+    display:inline-block;
+    font-size:17px;
+    font-weight: 700;
+    margin-right:15px;
+}
+.new-events .orange-box{
+    display: inline-block;
+}
+
+
+
+
 
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
@@ -535,6 +615,43 @@ height:400px;
 .comment-container h4{
     font-size: 20px;
     padding-top: 10px;
+}
+.about-content h3{
+    font-size: unset;
+}
+.new-events .ant-btn{
+    width: unset;
+    height: unset;
+}
+.new-events .ant-btn span{
+    font-size: unset;
+    font-weight: unset;
+}
+.edit-sec {
+     /* display:unset; */
+     /* grid-template-columns: unset; */
+    padding-top: 10px;
+}
+.new-events-text{
+    /* padding-left: 50px; */
+}
+.new-events-text h4{
+    font-size:16px
+}
+.edit-sec p{
+    font-size: 14px;
+    line-height:6.5px;
+}
+.new-events-right{
+    text-align: unset;
+    padding-top: 10px;
+}
+.about-content p{
+    font-size: 14px;
+}
+.admin-col{
+    margin-top: unset;
+    padding-bottom: unset;
 }
 
 

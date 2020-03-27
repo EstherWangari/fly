@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 
 function Footer() {
   return (
-    <div id="events" className="footer-container">
+    <div  className="footer-container">
     <Row>
       <Col md={12} xs={24}>
       <img src={require('../../assets/logo.png')} />

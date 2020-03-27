@@ -51,7 +51,7 @@ class LandingPage extends React.Component {
               />
             </Col>
           </Row>
-          <div className="second-row">
+          <div className="second-row" id="events">
           <Row className="bottom-landing-container">
           <Col  md={8} xs={24}>
               <Event

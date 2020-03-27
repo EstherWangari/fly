@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import LandingPage from "./landing/LandingPage";
 import EventPage from "./landing/EventPage";
-import About from "../components/about/About"
+import About from "../components/about/About";
+import AdminPage from './admin/AdminPage';
 function App() {
   return (
       <div>
@@ -12,7 +13,8 @@ function App() {
       <div>
         <Route path="/" exact component={LandingPage} />
         <Route path="/each-event" component={EventPage} />
-        <Route about="/about" component={About} />
+        <Route path="/about" component={About} />
+        <Route path="/admin" component={AdminPage} />
       </div>
     </BrowserRouter>
     </div>

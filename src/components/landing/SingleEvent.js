@@ -1,6 +1,5 @@
 import React from 'react';
 import { Input } from 'antd';
-import { Link } from 'react-router-dom';
 import { Row, Col, Button, Comment, Tooltip } from 'antd';
 import moment from 'moment'
 
@@ -80,7 +79,7 @@ class SingleEvent extends React.Component {
                             }
                             content={
                                 <p>
-                                    {this.props.Comment}
+                                    {this.props.comment}
                                 </p>
                             }
                             datetime={

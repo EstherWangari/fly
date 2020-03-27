@@ -11,6 +11,7 @@ class About extends React.Component {
                 <div className="head-about">
                     <Header />
                 </div>
+                
                 <div className="about-content">
                     <h3>About Us</h3>
                     <p>Fly Events Inc is a high end events company based in Nairobi. We help organizers and friends are not food sleep all day whilst slave
@@ -38,7 +39,11 @@ class About extends React.Component {
                 </Row>
                 </div>
                 <Footer />
-            </div>
+                </div>
+                
+         
+          
+
         );
     }
 }

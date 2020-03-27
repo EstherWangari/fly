@@ -1,10 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Event extends React.Component {
+    navigate(){
+      console.log('nay');
+      window.location.href = '/admin';
+    }  
     render(){
         return(
             <div  className="bottom-landing">
-              <div className='event-box'>
+              <div className='event-box' onclick="alert('as')">
                 <div className="event-image">
                   <img src={this.props.image} />
                 </div>
@@ -14,7 +19,7 @@ class Event extends React.Component {
                       <div>{this.props.month}</div>
                   </div>
                   <div className="event-content">
-                      <p>{this.props.title}</p>
+                      <p><Link to={"/each-event"}>{this.props.title}</Link></p>
                   </div>
                 </div>
               </div>
